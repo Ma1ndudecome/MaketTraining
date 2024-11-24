@@ -3,6 +3,7 @@ header{
     align-items: center;
     justify-content: space-around;
     padding: 25px 0;
+    font-family: Poppins;
 }
 header a{
     color: #fff;
@@ -29,9 +30,10 @@ header a{
 .list a{
     font-size: 17px;
 }
-.list a:nth-child(2){
+.list-item{
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 .sing-in{
     display: flex;
