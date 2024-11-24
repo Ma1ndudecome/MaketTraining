@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    opacity: 78%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #fff;
+    font-size: 22px;
+}
+.logo img{
+    height: 38px;
+    width: 38px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.list a{
+    font-size: 17px;
+}
+.list a:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.sing-in{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.sing-in a{
+    font-size: 17px;
+}
+.sing-in a:nth-child(2){
+    opacity: 100%;
+    background: #FF6E30;
+    border-radius: 8px;
+    padding: 13px 30px;
+}
